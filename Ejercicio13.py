@@ -6,10 +6,10 @@ comienza con vocal dicho nombre.
 
 vocales = ["A","E","I","O","U"]
 
-cantPersonas = input("cantidad de personas")
+cantPersonas = int(input("cantidad de personas"))
 
-for i in cantPersonas:
+for i in range(cantPersonas):
     nombre = input("ingresa tu nombre")
-    for j in vocales:
-        if nombre[i]-1 == vocales[j]-1:
-            
+    for vocal in vocales:
+        if nombre.startswith(vocal):
+            print("Dicho nombre comienza con vocal")
