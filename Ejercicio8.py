@@ -3,6 +3,7 @@ Ejercicio8
 - Una planta que fabrica perfiles de hierro posee un lote de n piezas.
 Confeccionar un programa que pida ingresar por teclado la cantidad de piezas a
 procesar y luego ingrese la longitud de cada perfil; sabiendo que la pieza cuya 
+SSentis que la consiga entra incompleta....
 """
 
 cantPiezas = int(input("ingresa la cantidad de piezas"))
