@@ -23,10 +23,8 @@ for i in range(cantTriangulos):
     elif lado1 != lado2 and lado2 != lado3 and lado1 != lado3:
         escaleno += 1
 
-strEquilatero = str(equilatero)
-strIsosceles = str(isósceles)
-strEscaleno = str(escaleno)
 
-print("La cantidad de triangulos equilatero son =" +strEquilatero)
-print("La cantidad de isósceles equilatero son =" +strIsosceles)
-print("La cantidad de escaleno equilatero son =" +strEscaleno)
+
+print("La cantidad de triangulos equilatero son =" +str(Equilatero))
+print("La cantidad de isósceles equilatero son =" +str(Isosceles))
+print("La cantidad de escaleno equilatero son =" +str(Escaleno))
